@@ -1,0 +1,16 @@
+{
+    "name": "out.mbtiles",
+    "description": "out.mbtiles",
+    "version": "2",
+    "minzoom": "0",
+    "maxzoom": "11",
+    "center": "14.501953,46.012190,11",
+    "bounds": "13.406544,45.421903,16.531269,46.872184",
+    "antimeridian_adjusted_bounds": "13.406544,45.421903,16.531269,46.872184",
+    "type": "overlay",
+    "format": "pbf",
+    "generator": "tippecanoe v2.75.1",
+    "generator_options": "tippecanoe -zg -o out.mbtiles --drop-densest-as-needed webtest/notebooks/slovenia_dataset_building_points_precis.geojson",
+    "strategies": "[{\"dropped_by_rate\":1172088},{\"dropped_by_rate\":1172014},{\"dropped_by_rate\":1171829},{\"dropped_by_rate\":1171368},{\"dropped_by_rate\":1170216},{\"dropped_by_rate\":1167336},{\"dropped_by_rate\":1160134},{\"dropped_by_rate\":1167745},{\"dropped_by_rate\":1182607},{\"dropped_by_rate\":1068598},{\"dropped_by_rate\":759966},{}]",
+    "json": "{\"vector_layers\":[{\"id\":\"slovenia_dataset_building_points_precis\",\"description\":\"\",\"minzoom\":0,\"maxzoom\":11,\"fields\":{}}],\"tilestats\":{\"layerCount\":1,\"layers\":[{\"layer\":\"slovenia_dataset_building_points_precis\",\"count\":1172137,\"geometry\":\"Point\",\"attributeCount\":0,\"attributes\":[]}]}}"
+}
